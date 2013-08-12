@@ -1,0 +1,179 @@
+@import "bootstrap";
+
+/*.map { height: 180px; }*/
+
+
+
+/*#popupleft {
+  float: left;
+}
+
+#popupright {
+  float: right;
+}*/
+
+#indexbody {
+   /*background-color: #83D8D9;*/
+    background: url(indexbg.jpg) no-repeat center center fixed;
+    /*background-opacity: 0.5;*/
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+#logo a {
+  color: black;
+  text-decoration: none;
+
+}
+
+#logo {
+  margin-right: 24em;
+  font-family: 'Oswald', sans-serif;
+}
+
+#logo small {
+  font-family: 'Lora', serif;
+}
+
+#headernav {
+  margin-bottom: auto;
+  height: 5%;
+  /*float: left;*/
+  /*background-color: #FFFFF9;*/
+  background: none;
+}
+
+#header{
+  height: 2em;
+
+}
+
+#containerlogo {
+  margin-bottom: 10em;
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-top: 20em;
+}
+
+
+.navbar-brand {
+  width: 25%;
+  float: right;
+  height: 10%;
+}
+
+#sidebar {
+  background: none;
+  margin-left: 9.8em;
+  margin-bottom: 3.5em;
+}
+
+#devise {
+  /*float: right;*/
+  margin-top: -3.5em;
+}
+
+#map {
+  width: 100em;
+  height: 50em;
+  border-radius: 5px;
+  background-color: white;
+  /*float: right;*/
+  margin-left: auto;
+  margin-top: 6em;
+  margin-bottom: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #7F7F7C;
+}
+
+#aboutbody {
+    background: url(bg.jpg) no-repeat center center fixed;
+    /*background-opacity: 0.5;*/
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#abouth1 {
+  margin-left: 3.8em;
+  font-family: 'Playball', cursive;
+  margin-top: 2em;
+}
+
+#aboutp {
+  font-family: 'Cardo', serif;
+  font-size: 1.3em;
+  width: 50%;
+  height: 50%;
+  margin-left: 8em;
+  font-weight: 600;
+
+}
+
+#aboutp a {
+  text-decoration: none;
+  /*color: #333540;*/
+}
+
+.newdevise label {
+  color: black;
+  font-family: 'lora', serif;
+  font-size: 1.5em;
+}
+
+
+
+.newdevisebutton {
+  margin-top: 50em;
+  background-color: red;
+}
+#newdevisename {
+  margin-left: 30em;
+  margin-top: 15em;
+  float:left;
+}
+
+#newdeviseemail {
+  margin-right: 30em;
+  margin-top: 15em;
+  float: right;
+}
+
+
+#newdevisepassword {
+  margin-left: 30em;
+  margin-bottom: 15em;
+  float:left;
+}
+
+#newdevisepasswordconfirm {
+  margin-right: 30em;
+  margin-bottom: 15em;
+  float: right;
+}
+
+.modal {
+  left:30em;
+  width: 45em;
+  height: 23em;
+  top: 10em;
+  overflow-y: hidden;
+  background: none;
+}
+
+.leaflet-popup-content-wrapper {
+  /*width: 25em;*/
+  /*height: 20em;*/
+  border: 2px solid;
+  border-color: blue;
+}
+
+ol li {
+  font-size: 1em;
+  margin-top: 2em;
+  background-color: rgba(255, 255, 255, 0.5);
+}

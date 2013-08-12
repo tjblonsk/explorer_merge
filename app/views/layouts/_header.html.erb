@@ -1,0 +1,11 @@
+ <div id='headernav' class="navbar navbar-fixed-top">
+    <h1 id='logo'><%= link_to "Explorer", explorer_home_path %><small> Find the Perfect Place to Vacation</small></h1>
+    <!-- <div id='devise' class="navbar-brand"> -->
+      <ul id ='devise' class="nav pull-right nav-pills">
+            <li class='active'><%= render 'devise/menu/registration_items' %></li>
+            <li class='active'><%= render 'devise/menu/login_items' %></li>
+            <li class='active'><a href='/about'>About</a></li>
+        </ul>
+    </div>
+
+
