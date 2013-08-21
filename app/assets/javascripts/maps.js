@@ -184,7 +184,7 @@ $(function () {
       trend = new L.LatLng(lat, lng);
       marker = new L.Marker(trend);
       popup = L.popup()
-      .setContent('<p class="placeName" id="'+ i +'">' + place + '</p><br/><p>' + address + '</p><br/><button id="faveButton">fave</button></br><button id="hotelsButton">nearby hotels</button></br><button id="yelpButton">yelp review</button>');
+      .setContent('<h3 class="placeName" id="'+ i +'">' + place + '</h3><br/><div class="btn-group"><button id="faveButton" class="btn btn-info btn-xs">Favorite</button></br><button id="hotelsButton" class="btn btn-info btn-xs">Nearby Hotels</button></br><button id="yelpButton" class="btn btn-info btn-xs">Yelp</button><br><button id="noteButton" data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-xs">Note</button></div>');
       marker.bindPopup(popup).openPopup();
       map.addLayer(marker);
       markerArray.push(marker);
@@ -339,7 +339,7 @@ $(function () {
           trend = new L.LatLng(lat, lng);
           marker = new L.Marker(trend);
           popup = L.popup()
-          .setContent('<p class="placeName" id="'+ i +'">' + place + '</p><br/><p>' + address + '</p><br/><button id="faveButton">fave</button></br><button id="yelpButton">yelp review</button>');
+          .setContent('<h3 class="placeName" id="'+ i +'">' + place + '</h3><br/><div class="btn-group"><button id="faveButton" class="btn btn-info btn-xs">Favorite</button></br><button id="hotelsButton" class="btn btn-info btn-xs">Nearby Hotels</button></br><button id="yelpButton" class="btn btn-info btn-xs">Yelp</button><br><button id="noteButton" data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-xs">Note</button></div>');
           marker.bindPopup(popup).openPopup();
           map.addLayer(marker);
           markerArray.push(marker);
